@@ -34,6 +34,26 @@ const links = ref([
     name: "Colors",
     path: "/colors",
   },
+  {
+    name: "Checkboxes",
+    path: "/checkboxes",
+  },
+  {
+    name: "Radio",
+    path: "/radio",
+  },
+  {
+    name: "ProgressBar",
+    path: "/progress-bar",
+  },
+  {
+    name: "Inputs",
+    path: "/inputs",
+  },
+  {
+    name: "Tabs",
+    path: "/tabs",
+  },
 ]);
 </script>
 
@@ -51,6 +71,7 @@ const links = ref([
   transform: translateX(-250px);
   display: flex;
   flex-direction: column;
+  z-index: 10;
 
   &--active {
     transform: translateX(0px);

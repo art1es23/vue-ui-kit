@@ -89,11 +89,3 @@ const clickOnButton = () => {
   alert("Greetings, my friend!");
 };
 </script>
-
-<style lang="scss" scoped>
-.container {
-  display: flex;
-  flex-wrap: wrap;
-  margin-bottom: 20px;
-}
-</style>

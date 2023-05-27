@@ -27,6 +27,10 @@ a {
   text-decoration: none;
 }
 
+p {
+  margin: 0;
+}
+
 .line {
   display: flex;
   flex-wrap: wrap;
@@ -34,4 +38,17 @@ a {
   &_block {
     display: block;
   }
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.container-column {
+  flex-direction: column;
+  flex-wrap: initial;
+  gap: 10px;
+  align-items: flex-start;
 }

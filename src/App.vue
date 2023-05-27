@@ -51,6 +51,7 @@ const toggleSidebar = () => (isOpenedSidebar.value = !isOpenedSidebar.value);
   display: flex;
   align-items: center;
   justify-content: center;
+  z-index: 11;
 }
 
 @media screen and (max-width: 1023px) {
