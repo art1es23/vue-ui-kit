@@ -1,23 +1,36 @@
 <template>
-  <div class="tab">{{ tabs }}</div>
+  <div class="tab-nav">
+    <span
+      v-for="tab in tabs"
+      :key="tab.id"
+      :class="['tab-nav__item', { selected: tab.id === activeTab }]"
+      @click="handlerTab(tab.id)"
+      >{{ tab.label }}</span
+    >
+  </div>
+  <div class="tab-content">
+    <slot />
+  </div>
 </template>
 
 <script setup>
 const props = defineProps({
-  //   id: {
-  //     type: String,
-  //     default: "",
-  //   },
-  //   label: {
-  //     type: String,
-  //     default: "",
-  //   },
-
   tabs: {
     type: Array,
     required: true,
   },
+
+  activeTab: {
+    type: Number,
+    required: false,
+  },
 });
+
+const emits = defineEmits(["selectTab"]);
+
+const handlerTab = (id) => {
+  emits("selectTab", id);
+};
 </script>
 
 <style lang="scss" scoped>
