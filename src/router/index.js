@@ -8,6 +8,7 @@ import Radio from "@/pages/Radio.vue";
 import ProgressBar from "@/pages/ProgressBar.vue";
 import Inputs from "@/pages/Inputs.vue";
 import Tabs from "@/pages/Tabs.vue";
+import Table from "@/pages/Table.vue";
 
 const routes = [
   {
@@ -55,6 +56,11 @@ const routes = [
     path: "/tabs",
     name: "tabs",
     component: Tabs,
+  },
+  {
+    path: "/table",
+    name: "table",
+    component: Table,
   },
 ];
 

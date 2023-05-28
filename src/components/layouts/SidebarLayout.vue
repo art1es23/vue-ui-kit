@@ -54,6 +54,10 @@ const links = ref([
     name: "Tabs",
     path: "/tabs",
   },
+  {
+    name: "Table",
+    path: "/table",
+  },
 ]);
 </script>
 
