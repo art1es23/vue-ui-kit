@@ -9,6 +9,7 @@ import ProgressBar from "@/pages/ProgressBar.vue";
 import Inputs from "@/pages/Inputs.vue";
 import Tabs from "@/pages/Tabs.vue";
 import Table from "@/pages/Table.vue";
+import PushNotifications from "@/pages/PushNotifications.vue";
 
 const routes = [
   {
@@ -61,6 +62,11 @@ const routes = [
     path: "/table",
     name: "table",
     component: Table,
+  },
+  {
+    path: "/push",
+    name: "push",
+    component: PushNotifications,
   },
 ];
 

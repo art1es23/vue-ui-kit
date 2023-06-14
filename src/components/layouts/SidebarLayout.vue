@@ -58,6 +58,10 @@ const links = ref([
     name: "Table",
     path: "/table",
   },
+  {
+    name: "Push Notifications",
+    path: "/push",
+  },
 ]);
 </script>
 
