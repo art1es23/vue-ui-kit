@@ -1,4 +1,5 @@
 <template>
+  <p>Something like this</p>
   <div v-for="item in list" :key="item.id">
     <Checkbox
       :label="item.label"
