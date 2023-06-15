@@ -1,3 +1,4 @@
+<!-- SOMETHING ELSE -->
 <template>
   <div class="notification" :data-id="notification.id">
     <slot></slot>
