@@ -1,5 +1,5 @@
 <template>
-  <p>Something like this</p>
+  <p>Something like this sijdfksdjfkskdflk</p>
   <div v-for="item in list" :key="item.id">
     <Checkbox
       :label="item.label"
