@@ -1,3 +1,4 @@
+<!-- ANOTHER BRANCH -->
 <template>
   <div :class="['sidebar', { 'sidebar--active': isOpenedSidebar }]">
     <router-link
